@@ -1,0 +1,1 @@
+export const data = [{ url: "/1.jpg", text: "chidiya udd?" },{ url: "2.jpg", text: "kabhutar udd?" },{ url: "./4.jpg", text: "chamgader udd?" }];
