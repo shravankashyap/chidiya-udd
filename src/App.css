@@ -77,7 +77,9 @@
   height: 200px;
   width: 250px;
   border-radius: 10px;
-  background-color: teal;
+  color: white;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/59/4b/25/594b2522f8f2313530368b747aa0f23f.jpg");
 }
 .box-user {
   height: 100px;

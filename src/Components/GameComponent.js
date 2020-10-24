@@ -1,5 +1,5 @@
 import React from "react";
-
+import Speech from 'speak-tts'
 
 
 class GameComponent extends React.Component {
@@ -8,7 +8,7 @@ class GameComponent extends React.Component {
     this.state={}
   }
  
-
+   
     render() {
         const { pairs, data } = this.props;
         console.log(data);
@@ -50,14 +50,8 @@ class GameComponent extends React.Component {
                       </div>
                       {/* <div className=" box-user">4</div> */}
                  </div>
-                  <div className="image-slider-main"><img src={"/1.jpg"}></img>
-                      {data.map((ima, i) => { 
-                        <div style={{ backgroundImage: `url(${ima.url})`,textAlign:"center" }}>
-                         <span>{ima.text}</span>
-                    </div>
-                      })
-                          
-                       }
+                  <div className="image-slider-main">
+                       <div style={{marginTop:78}}>Chidiya udd?</div>
                   </div>
                   <div>
                       <div className=" box-user fourth-user" style={{display:pairs==2?"none":"block"}}>
